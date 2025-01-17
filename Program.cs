@@ -24,11 +24,13 @@ namespace v4._8_Sqlite_Tester
                 Debug.WriteLine("create complete, operation begin");
                 Debug.WriteLine("DB created? : " + my_context.Database.EnsureCreated());
 
-                //test write new data to db
+                //test write new data to db - WARNING: Ensure the Id value is unique ( with respect to the site table)
+                /*
                 var site = new Site { Id = 2, Notes = "New Site" };
                 my_context.Sites.Add(site);
                 my_context.SaveChanges();
                 Debug.WriteLine("saved");
+                */
 
                 var sites = my_context.Sites.ToList();
                 Debug.WriteLine("Fetch site data");
