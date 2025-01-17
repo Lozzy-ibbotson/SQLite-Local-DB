@@ -27,14 +27,18 @@ Nuget Packages
 1.	Microsoft.EntityFrameworkCore
 2.	Microsoft.EntityFrameworkCore.Sqlite
 3.	Microsoft.EntityFrameworkCore.Tools
+
 *v3.1.32
+
 1.	SQLitePCLRaw.bundle_e_sqlite3
 2.	SQLitePCLRaw.bundle_green
 3.	SQLitePCLRaw.core
 4.	SQLitePCLRaw.lib.e_sqlite3
 5.	SQLitePCLRaw.provider.dynamic_cdecl
 6.	SQLitePCLRaw.provider.e_sqlite3
+
 *v2.1.10
+
 --> requires manually moving e_sqlite3.dll to bin > debug > runtimes folder
 
 
